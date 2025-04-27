@@ -1,4 +1,7 @@
 import pytest 
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from code.menuitem import MenuItem
 from code.menuitemextractor import clean_scraped_text, clean_price, extract_menu_item
 

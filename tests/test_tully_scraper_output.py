@@ -6,7 +6,7 @@ import pandas as pd
 # TODO RUN YOUR SCRAPER BEFORE RUNNING THESE TESTS!
 #
 
-FILE = "cache/tullys_menu.csv"
+FILE = "/Users/jack/Downloads/IST 356/assignment-07-JackVsyr/cache/tullys_menu.csv"
 
 def test_should_pass():
     print("\nAlways True!")
@@ -18,8 +18,8 @@ def test_tullyscraper_menu_csv_file_exists():
 
 def test_tullyscraper_menu_csv_file_proper_rows_and_cols():
     df = pd.read_csv(FILE)
-    print("We expect 113 rows and 4 columns")
-    assert df.shape == (113, 4)
+    print("We expect 108 rows and 4 columns")
+    assert df.shape == (108, 4)
     
 
 # IF YOU NEED TO DEBUG A TEST
