@@ -23,3 +23,4 @@ Examples:
 
 `--- Reflection Below This Line ---`
 
+In this assignment, I got some hands on experience with web scraping using chromium. It was difficult at first, but once I referenced the solution once or twice, I was able to get the hang of it and do the majority of the assignment myself once I understood the general flow. I also learned how to get around the “code” folder name that causes module conflicts. I also realized how important it is for the code and tests to match exactly, specifically with the test that was looking for specific text and rows in the csv. In the future I want to work on writing my code to work with the tests to save time troubleshooting.
